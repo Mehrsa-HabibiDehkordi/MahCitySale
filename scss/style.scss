@@ -1,0 +1,123 @@
+
+* {
+    font-family: Vazir !important;
+}
+
+.container {
+    & .col-md-4 {
+        & .category {
+            & .news {
+                & img {
+                    height: 100px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+.marketing {
+    & .row {
+         & .col-lg-4 {
+            & p {
+                text-align: justify;
+            }
+            & h4 {
+            text-align: center;
+            }
+            & img { 
+            align-items: center;
+            justify-items: center;
+            }
+        } 
+    }
+}
+
+.navbar {
+    background-color: #212529;
+    & .container {
+        & .collapse {
+            & form {
+                background-color: #3d3d3d;
+                border: 1px solid #303030;
+                & > input, & button {
+                    background-color: transparent;
+                    border: none;
+                    color: #ffffff;
+                    &:focus, &:active {
+                        outline: none;
+                    }
+                }
+                & > input  {
+                    font-size: .8rem;
+                    &::placeholder {
+                    color: #c5c4c4;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.products {
+    background: #fbeedf url(../img/pattern-04.png);
+}
+
+.news-color {
+    background: #fbeedf url(../img/pattern-04.png);
+}
+
+.row {
+    & .col-md-6 {
+        & .row {
+          & .col {
+            & p {
+                text-align: justify;
+            }
+          } 
+        }
+    }
+}
+
+.register {
+    background: #fbeedf url(../img/pattern-04.png);
+    & form {
+        width: 40%;
+        overflow: hidden;
+        & input {
+            width: 70%;
+            &:focus {
+                outline: none;
+            }
+        }
+        & button {
+            width: 30%;
+        }
+    }
+}
+
+
+.border {
+    &:hover {
+        box-shadow: 0px 0px 10px #3d3d3d;
+        transition: .4s;
+    }
+}
+
+.footer {
+    background-color: #5c636a;
+    & .contact-me {
+        & p{
+            text-align: justify;
+        }
+    }
+}
+
+.design{
+    background-color: #212529;
+}
+
+
+
+
+
