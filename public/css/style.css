@@ -9,6 +9,8 @@
 
 .marketing .row .col-lg-4 p {
   text-align: justify;
+  text-align: center;
+  font-size: larger;
 }
 
 .marketing .row .col-lg-4 h4 {
@@ -16,23 +18,20 @@
 }
 
 .marketing .row .col-lg-4 img {
-  align-items: center;
-  justify-items: center;
-}
-
-.navbar {
-  background-color: #212529;
+  width: 100%;
+  height: 250px;
 }
 
 .navbar .container .collapse form {
-  background-color: #3d3d3d;
+  width: 300px;
+  background-color: #fad0ed;
   border: 1px solid #303030;
 }
 
 .navbar .container .collapse form > input, .navbar .container .collapse form button {
   background-color: transparent;
   border: none;
-  color: #ffffff;
+  color: #807d7d;
 }
 
 .navbar .container .collapse form > input:focus, .navbar .container .collapse form > input:active, .navbar .container .collapse form button:focus, .navbar .container .collapse form button:active {
@@ -44,7 +43,7 @@
 }
 
 .navbar .container .collapse form > input::placeholder {
-  color: #c5c4c4;
+  color: #807d7d;
 }
 
 .products {
